@@ -1,6 +1,8 @@
 import React from 'react';
-import {TableInstance} from '@tanstack/table-core';
-import {TableGenerics} from '@tanstack/table-core/src/types';
+import {
+  TableInstance,
+  TableGenerics,
+} from "@tanstack/react-table";
 
 type Props<T> = {
   table: TableInstance<T>

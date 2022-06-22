@@ -44,7 +44,6 @@ export const Table: FC = () => {
   })
 
   return (
-    // FIXME how to define the type of GridTable that I don't need to convert instance `as any`?
-    <GridTable table={instance as any}/>
+    <GridTable table={instance}/>
   )
 };
